@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: go-web-service-repo
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: https://github.com/yourusername/form3homework   # Replace with your Git repository URL
+  ref:
+    branch: main
