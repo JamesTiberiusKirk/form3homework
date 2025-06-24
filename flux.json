@@ -1,0 +1,114 @@
+[
+  {
+    "level": "error",
+    "ts": "2025-06-23T22:31:29.931Z",
+    "msg": "Reconciler error",
+    "controller": "gitrepository",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "GitRepository",
+    "GitRepository": {
+      "name": "go-web-service-repo",
+      "namespace": "flux-system"
+    },
+    "namespace": "flux-system",
+    "name": "go-web-service-repo",
+    "reconcileID": "08fcc7f4-82dc-48e3-881b-72c15e1a4428",
+    "error": "failed to checkout and determine revision: unable to clone 'https://github.com/JamesTiberiusKirk/form3homework': couldn't find remote ref \"refs/heads/main\""
+  },
+  {
+    "level": "error",
+    "ts": "2025-06-23T22:36:53.708Z",
+    "msg": "Reconciler error",
+    "controller": "helmchart",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "HelmChart",
+    "HelmChart": {
+      "name": "default-go-web-service",
+      "namespace": "default"
+    },
+    "namespace": "default",
+    "name": "default-go-web-service",
+    "reconcileID": "01028d61-09b2-466c-8d43-f42feb02d70d",
+    "error": "failed to get source: GitRepository.source.toolkit.fluxcd.io \"go-web-service-repo\" not found"
+  },
+  {
+    "level": "error",
+    "ts": "2025-06-24T07:18:05.146Z",
+    "msg": "Reconciler error",
+    "controller": "gitrepository",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "GitRepository",
+    "GitRepository": {
+      "name": "go-web-service-repo",
+      "namespace": "flux-system"
+    },
+    "namespace": "flux-system",
+    "name": "go-web-service-repo",
+    "reconcileID": "25c4c1db-ceaf-4c98-a294-2c6127aacece",
+    "error": "failed to checkout and determine revision: unable to clone 'https://github.com/JamesTiberiusKirk/form3homework': couldn't find remote ref \"refs/heads/main\""
+  },
+  {
+    "level": "error",
+    "ts": "2025-06-24T07:23:28.755Z",
+    "msg": "Reconciler error",
+    "controller": "helmchart",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "HelmChart",
+    "HelmChart": {
+      "name": "default-go-web-service",
+      "namespace": "default"
+    },
+    "namespace": "default",
+    "name": "default-go-web-service",
+    "reconcileID": "5f4a7388-5cb1-4579-9b7e-591aba8caeb2",
+    "error": "failed to get source: GitRepository.source.toolkit.fluxcd.io \"go-web-service-repo\" not found"
+  },
+  {
+    "level": "error",
+    "ts": "2025-06-24T07:33:05.369Z",
+    "msg": "Reconciler error",
+    "controller": "gitrepository",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "GitRepository",
+    "GitRepository": {
+      "name": "go-web-service-repo",
+      "namespace": "flux-system"
+    },
+    "namespace": "flux-system",
+    "name": "go-web-service-repo",
+    "reconcileID": "5f19b3a5-65f8-4371-85d0-2fa8c87bd656",
+    "error": "failed to checkout and determine revision: unable to clone 'https://github.com/JamesTiberiusKirk/form3homework': couldn't find remote ref \"refs/heads/main\""
+  },
+  {
+    "level": "error",
+    "ts": "2025-06-24T07:38:28.826Z",
+    "msg": "Reconciler error",
+    "controller": "helmchart",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "HelmChart",
+    "HelmChart": {
+      "name": "default-go-web-service",
+      "namespace": "default"
+    },
+    "namespace": "default",
+    "name": "default-go-web-service",
+    "reconcileID": "ccb7366a-cb0c-4878-8815-5a27f45d551a",
+    "error": "failed to get source: GitRepository.source.toolkit.fluxcd.io \"go-web-service-repo\" not found"
+  },
+  {
+    "level": "error",
+    "ts": "2025-06-24T07:48:05.571Z",
+    "msg": "Reconciler error",
+    "controller": "gitrepository",
+    "controllerGroup": "source.toolkit.fluxcd.io",
+    "controllerKind": "GitRepository",
+    "GitRepository": {
+      "name": "go-web-service-repo",
+      "namespace": "flux-system"
+    },
+    "namespace": "flux-system",
+    "name": "go-web-service-repo",
+    "reconcileID": "73f5f80a-79d5-4e30-af02-aace4c487a4e",
+    "error": "failed to checkout and determine revision: unable to clone 'https://github.com/JamesTiberiusKirk/form3homework': couldn't find remote ref \"refs/heads/main\""
+  }
+]
