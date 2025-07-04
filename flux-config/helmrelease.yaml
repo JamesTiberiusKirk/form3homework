@@ -4,14 +4,15 @@ metadata:
   name: go-web-service
   namespace: default
 spec:
-  interval: 10m  # This is the interval to check for changes (required)
+  interval: 1m
   chart:
     spec:
-      chart: go-web-service
+      chart: ./charts/go-web-service
       version: "0.1.0"
       sourceRef:
         kind: GitRepository
         name: go-web-service-repo
+        namespace: flux-system
   values:
     image:
       repository: localhost:5000/go-web-service
