@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: go-web-service
+  repository: localhost:5000/go-web-service
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
